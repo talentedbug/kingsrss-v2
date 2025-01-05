@@ -1,0 +1,32 @@
+prefix_html: |
+  <div class="prefix-content">
+    <h1>KingsRSS</h1>
+    <p>Welcome to your daily dose of news. Have a good time reading!</p>
+    <p>
+      Project: <a href="https://github.com/talentedbug/kingsrss-v2">KingsRSS</a> (Star it!)<br>
+      Author: <a href="https://github.com/talentedbug">talentedbug</a><br>
+      Blog: <a href="https://hi.bug-barrel.top">Bug Barrel</a><br>
+    </p>
+    <p>Tips: Go to srcconf.yml to customize or remove this notice :) </p>
+  </div>
+
+# Email configuration
+# Never expose this to internet
+email:
+  enabled: true
+  smtp_server: smtp-mail.outlook.com
+  smtp_port: 587
+  sender_email: example@outlook.com
+  sender_password: examplepassword # Use app-specific password
+  recipients:
+    - yourkindle@kindle.com
+    - richpeoplehavemore@kindle.com
+
+urls:
+  - url: https://example.com/feed
+    name: example_feed
+    section: Example Section
+  
+  - url: https://another.com/feed
+    name: another_feed
+    section: Another Section

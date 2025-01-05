@@ -1,0 +1,23 @@
+========== KingsRSS ==========
+
+KingsRSS is a self-hosted tool to aggregate and send RSS feeds to your Kindle.
+
+Deployment:
+
+pip install -r requirements.txt
+
+Configuration:
+
+Edit srcconf.yml to add your RSS feeds and set email options.
+
+For advanced users, you can edit kingsrss.py to customize the aggregating 
+process. See comments for detailed explanation.
+
+Usage:
+
+For one-time tests, run:
+
+python kingsrss.py
+
+If you want to run KingsRSS regularly, you can create a cron job. Google for 
+instructions on how to do this for your operating system.
